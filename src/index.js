@@ -3,10 +3,10 @@ import angular from 'angular';
 import 'angular/angular-csp.css';
 import './index.scss';
 
-import demoModule from './demo/demoModule';
+import attendanceGridModule from './attendanceGrid/attendanceGridModule';
 
 angular.module('main', [
-  demoModule,
+  attendanceGridModule,
 ]);
 
 angular.bootstrap(document.documentElement, ['main']);
